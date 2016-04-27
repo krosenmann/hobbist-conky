@@ -1,5 +1,5 @@
 
-    alignment top_middle
+    alignment top_right
     background  yes  
     border_width  1
     cpu_avg_samples  2
@@ -57,7 +57,7 @@ ${execpi 300 python3 ~/.scripts/gmail.py}
 $hr
 ${color white}Dotabuff statistic 
 
-${head ./stats} 
+${execpi 5000 perl ~/.scripts/dotabuff.pl} 
 $hr
 ${color grey}Name              PID   CPU%   MEM%
 ${color lightgrey} ${top name 1} ${top pid 1} ${top cpu 1} ${top mem 1}
