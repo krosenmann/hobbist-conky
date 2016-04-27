@@ -55,9 +55,9 @@ $hr
 
 ${execpi 300 python3 ~/.scripts/gmail.py}
 $hr
-${color white}Organizer 
+${color white}Dotabuff statistic 
 
-${head ~/Документы/list.org 10 20} 
+${head ./stats} 
 $hr
 ${color grey}Name              PID   CPU%   MEM%
 ${color lightgrey} ${top name 1} ${top pid 1} ${top cpu 1} ${top mem 1}
